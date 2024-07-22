@@ -6,6 +6,8 @@ Each individual approach is documented and has relevant code contained in each f
 
 Note that in this paper we only use the code in the "RWA with Safety", "FRWA with Safety", and "Compositional FRWA with Safety" folders for explaining our methodology and experiments. Still, we leave other folders with variations of these techniques, even if not described in the paper, to help showcase other related possibilities with our work.
 
+The folders without a "with Safety" tag denote the lack of enforcing the nonlinear safe velocity constraint during controller and certificate training and verification. Note that FRWA stands for "Filtered RWA".
+
 Overall Libraries and Precursors:
 This code in this repository requires Python 3. Additionally, to run code, Marabou and Gurobi should be installed as outlined in https://github.com/NeuralNetworkVerification/Marabou. Any other relevant libaries are in the requirements.txt file, and can be installed using the command: 
 
